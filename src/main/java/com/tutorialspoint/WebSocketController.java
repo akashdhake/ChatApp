@@ -306,10 +306,4 @@ public class WebSocketController {
 		return offlineusers;
 	}
     
-    @RequestMapping("/wow")
-    public String wow(Model model)
-    {    
-    	model.addAttribute("message", "message received");
-    	return"wow";
-    }
 }
